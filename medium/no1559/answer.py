@@ -17,8 +17,6 @@ class Solution:
                         visited[x][y] = True
                         for (n_x, n_y) in [(x+1, y), (x, y+1), (x-1, y), (x, y-1)]:
                             if 0 <= n_x < m and 0 <= n_y < n and grid[n_x][n_y] == grid[x][y]:
-                                if not visited[n_x][n_y]:
-                                    stack.append((n_x, n_y, x, y))
-                                elif (p_x, p_y) != (n_x, n_y):
+                                if not visited[n_x][n_y] or (p_x, p_y) != (n_x, n_y):
                                     stack.append((n_x, n_y, x, y))
         return False
