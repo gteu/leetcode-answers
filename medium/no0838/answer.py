@@ -1,3 +1,5 @@
+# Time complexity of this solution is O(N) but it requires for loop three times, which makes it slower.
+
 class Solution:
     def pushDominoes(self, dominoes: str) -> str:
         left, right = [-1] * len(dominoes), [-1] * len(dominoes)
