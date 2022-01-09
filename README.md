@@ -12,6 +12,11 @@
 ## Bit manipulation
 - [(no0898) Bitwise ORs of Subarrays - LeetCode](https://leetcode.com/problems/bitwise-ors-of-subarrays/)
 
+## Binary search
+
+## Two-pointers algorithm
+- [(no1574) Shortest Subarray to be Removed to Make Array Sorted - LeetCode](https://leetcode.com/problems/shortest-subarray-to-be-removed-to-make-array-sorted/)
+
 ## Others
 ### Kadane’s algorithm
 - [(no0053) Maximum Subarray - LeetCode](https://leetcode.com/problems/maximum-subarray/)
